@@ -43,7 +43,9 @@
 			   
 			   var result = convertTemperature(t, u);
 			   
-			   alert("Temperature is "+result.temperature+" in "+result.unit);
+			   $("#result").html(
+            "Temperature is " + result.temperature + " in " + result.unit
+          );
 			});
 		});
 
